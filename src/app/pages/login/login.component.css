@@ -1,0 +1,144 @@
+.centralizando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    overflow: hidden;
+    /* width: 1180px; */
+    width: 1000px;
+    margin: auto;
+}
+body {
+    margin: auto;
+}
+
+.inicio {
+    background-color: #d05a5a;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.inicio h1 {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    padding: 0px 50px 50px 50px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.inicio p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 50px 12px 50px;
+    margin: auto;
+} 
+
+.botao_cadastro {
+    float: left;
+    padding: 50px 10px 50px 0px;
+}
+
+.texto_cadastro h1 {
+    padding: 10px 50px 50px 50px;
+    font-size: 14px;
+}
+
+.botao_cadastro button {
+    float: left;
+    padding: 40px 77px 40px 77px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.botao_cadastro button:hover {
+    background-color: #a72929;
+    color: white;
+}
+
+.botao_login {
+    float: left;
+    padding: 5px;
+}
+
+.botao_login button {
+    float: left;
+    padding: 40px 77px 40px 77px;
+    background-color: #755f5f;
+    color: white;
+    border: none;
+}
+
+.botao_login button:hover {
+    background-color: #a72929;
+}
+
+.inicio_imagem {
+    width: 40px;
+    text-align: center;
+}
+
+.inicio_imagem img {
+  width: 100%;
+}
+
+.janela_renderizada_cadastro input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .janela_renderizada_cadastro p {
+      padding: 0px;
+  }
+
+  .botao_janela {
+      padding-bottom: 25px;
+  }
+
+  .botao_janela button {
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border-radius: 8px;
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+}
+
+.botao_janela button:hover {
+    background-color: #a72929;
+    border: none;
+    color: white;
+}
+
+.janela_renderizada_login input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .janela_renderizada_login p {
+      padding: 0px;
+  }
+  
+  .rodateto {
+    overflow: hidden;
+    width: 20%;
+    margin: auto;
+  }
+
+  .rodateto img{
+    width: 100%;
+}
